@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="SU TEMA">
+    <meta name="author" content="SU NOMBRE">
+    <title>Vinos en Chile</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link href="estilo.css" rel="stylesheet">
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Vinos en Chile</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#primera">EXPORTACIÓN MUNDIAL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#segunda">IMPORTACIÓN POR REGIÓN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#tercera">IMPORTACIÓN SEGÚN CONTINENTES</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col text-center">
+          	<h1>Vinos de Chile</h1>
+          	<h2>Datos estadísticos de la exportación e importación a nivel mundial</h2>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="primera">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 dataviz-primera"></div>
+          <div class="col-lg-6">
+          	<h3 class="mt-3">Exportación Mundial</h3>
+            <p> En 2016, Vino fue el 5to producto más exportado por Chile, de un total de 1224 categorías. Representó el 3,3 % de las exportaciones a nivel nacional, siendo Region Metropolitana Santiago la principal región exportadora, abarcando el 79,9 % del total.</p>
+          	<p>Las exportaciones de Vino fueron de $ 1,85 miles de millones, siendo China el principal destino de las exportaciones, alcanzando un 13,6 %, seguido de Estados Unidos de América y Reino Unido, con un 13,3 % y 10,3 % respectivamente.  </p>
+            <p>Por otra parte, las importaciones de Vino fueron de $ 7,26 millones, siendo Argentina la principal fuente de las importaciones, alcanzando un 46,5 %, seguido de Francia y España, con un 21,0 % y 14,2 % respectivamente.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="segunda" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="mt-3">Importacion de vino por regiones dentro de Chile</h3>
+            <p>Las importaciones dentro de Chile de variedades de vino se acrecientan mayoritariamente en la región del Maule, con una tendencia a una alza en el año 2015. </p>
+            <p>Esta tendencia se repite igualmente en el resto de regiones del gráfico.</p>
+          </div>
+          <div class="col-lg-6 text-right dataviz-segunda"></div>
+        </div>
+      </div>
+    </section>
+    <section id="tercera">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 dataviz-tercera"></div>
+          <div class="col-lg-6">
+            <h3 class="mt-3">Importaciones por origen según continentes</h3>
+            <p> Aquí se muestran las importaciones de vino de los distintos continentes. </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+      	<div class="row">
+      		<div class="col">
+		        <p class="small">Desarrollado por <a href="mailto:mail@mail.com">Grecia Pizarro Gutiérrez</a> | Seminario Gráfica Computacional I 2018, Primer Semestre</p>
+		        <ul class="list-inline small">
+		          <li class="list-inline-item">
+		            <a class="nav-link js-scroll-trigger" href="#primera">EXPORTACIÓN MUNDIAL</a>
+		          </li>
+		          <li class="list-inline-item">
+		            <a class="nav-link js-scroll-trigger" href="#segunda">IMPORTACIÓN POR REGIÓN</a>
+		          </li>
+		          <li class="list-inline-item">
+		            <a class="nav-link js-scroll-trigger" href="#tercera">IMPORTACIÓN SEGÚN CONTINENTES</a>
+		          </li>
+		        </ul>
+      		</div>
+      	</div>
+      </div>
+    </footer>
+
+    <!-- Javascript de visualizaciones-->
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+	<script src="d3/primera.js"></script>
+	<script src="d3/segunda.js"></script>
+	<script src="d3/tercera.js"></script>
+    <!-- Javascript de Bootstrap -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/menu.js"></script>
+  </body>
+
+</html>
